@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #5a5a5a;
+}
+#container {
+  width: 980px;
+  margin: 0 auto;
+  box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+  padding: 20px;
+}
+header h1 {
+  margin: 20px 10px;
+  color: #b5b5b5;
+}
+
+nav {
+  display: block;
+  background-color: #1f5faa;
+}
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+  background-color: #2b83ea;
+}
+
+/* Hero Panel */
+#hero {
+  background-color: #e4e4e5;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+#hero h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+#hero p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* main content */
+#wrapper {
+  margin: 0;
+}
+
+#main {
+  float: left;
+  width: 640px;
+  padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+  float: left;
+  width: 260px;
+  padding: 20px;
+}
+
+/* widget */
+.widget-box {
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.widget-box .title {
+  padding: 10px 16px;
+  background-color: #428bca;
+  color: #fff;
+}
+.widget-box ul {
+  list-style-type: none;
+}
+.widget-box li {
+  border-bottom: 1px solid #eee;
+}
+
+.widget-box li a {
+  padding: 10px 16px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+.widget-box li:hover a {
+  background-color: #eee;
+}
+.widget-box p {
+  padding: 15px;
+  line-height: 25px;
+}
+
+/* footer */
+footer {
+  clear: both;
+  background-color: #1d1d1d;
+  padding: 20px;
+  color: #eee;
+}
+
+.box {
+  display: block;
+  float: left;
+  width: 33.333333%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 10px;
+  text-align: center;
+}
+.box h3 {
+  margin: 15px 0;
+}
+.box h3 {
+  margin: 15px 0;
+}
+.box p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.box img {
+  border: 0;
+  width: 100%;
+  max-width: 220px;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.box img.image-circle {
+  /* Keep the small circular avatar style for home boxes */
+  width: 120px;
+  max-width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.image-circle {
+  border-radius: 50%;
+}
+.row {
+  margin: 0 -10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.row:after,
+.row:before,
+.entry:after,
+.entry:before {
+  content: "";
+  display: table;
+}
+.row:after,
+.entry:after {
+  clear: both;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  margin: 40px 0;
+}
+/* entry */
+.entry {
+  margin: 15px 0;
+}
+.entry h2 {
+  margin-bottom: 20px;
+}
+.entry p {
+  line-height: 25px;
+}
+.entry img {
+  float: left;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.entry .right-img {
+  float: right;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #2b83ea;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.btn-default {
+  background-color: #555;
+}
+.btn-large {
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+/* Forms */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+.contact-form label {
+  font-weight: bold;
+}
+.contact-form p {
+  margin-bottom: 12px;
+}
+
+/* Form message feedback */
+.form-message {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+.form-message.form-success {
+  color: #2b8a3e;
+}
+.form-message.form-error {
+  color: #c0392b;
+}
